@@ -255,7 +255,7 @@ html,body{
 .page2-block-about-block-buttoms-hard:hover {
     background-color: #808080;
     color: white;
-  }
+}
 
 /* -------------page3------------*/
 
@@ -303,6 +303,7 @@ html,body{
     padding-bottom: 30px;
 }
 .page3-projects-block-one-link{
+    color: #fff;
     width: 240px;
     height: 63px;
     /* background-color: #000; */
@@ -316,13 +317,14 @@ html,body{
     text-align: center;
     transition: 0.3s;
 
+
 }
 .page3-projects-block-one-link-text{
-    color: #fff;
+    /* color: #fff; */
     font-size: 25px;
 }
 .page3-projects-block-one-link:hover {
-    color: #000;
+    color: #999999;
     background-color: #fff;
 }
 /* ==========page4=============== */
@@ -373,7 +375,7 @@ html,body{
     }
     .menu-link{
         font-size: 20px;
-    }
+    /* width: 100%; */}
     .header__container{
         padding: 0 0 0 0px;
     }
@@ -385,7 +387,7 @@ html,body{
 
         .menu-item{
         margin-right: 0  !important;
-        flex: 0 0 50%;
+        flex: 0 0 100%;
         }
 
 }
@@ -414,9 +416,17 @@ html,body{
         width: 70px;
         height: 70px;
     }
+    .menu-item{
+        margin-right: 0  !important;
+        flex: 0 0 50%;
+        }
     
 }
-
+@media (max-width: 350px){
+    .menu-item{
+          flex: 0 0 100%;
+          }
+  }
   
 span.porfolio {
     border-right: .05em solid;
