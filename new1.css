@@ -362,7 +362,6 @@ html,body{
 .ffff{
     width: 50%;
     height: 200px;
-    /* background-color: #fff; */
 }
 /* ---------------media---------------------- */
 @media (max-width: 600px)  {
